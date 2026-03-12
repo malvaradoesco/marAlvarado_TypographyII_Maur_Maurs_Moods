@@ -1,1 +1,11 @@
+<!DOCTYPE html>   <!--Declares this is an HTML5 document-->
+<html lang="en" style="background-color: rgb(153, 193, 239); max-width: 100vw;">   <!--html element is always the root element of the page-->
+<head>   <!--Contains metadata about the document-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="stylesheet.css">
+</head>
 
+<h1>
+    hello world
+</h1>
