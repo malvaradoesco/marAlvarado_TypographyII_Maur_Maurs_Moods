@@ -3,8 +3,48 @@
   src: url(kaerukaeru-Regular.woff2); /* url of the font */
 }
 
-.h1{
+.pixelify-sans-uniquifier {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+h1{
     font-family: frog;
-    font-size: x-large;
     color: #00696E;
+}
+
+h2{
+    font-family: Pixelify Sans;
+    color:#00696E;
+}
+
+.center{
+  position: absolute;
+  transform: translate(0,0);
+  margin: 1vw;
+  padding: 1vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  position: relative;
+  width: auto;
+  height: 40vw;
+  background-color: #F6ECD2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5vw;
+  margin: 5vw;
+}
+
+
+a:visited{
+    color: #F6ECD2;
 }
