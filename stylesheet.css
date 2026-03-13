@@ -1,0 +1,10 @@
+@font-face {
+  font-family: frog; /* set name */
+  src: url(kaerukaeru-Regular.woff2); /* url of the font */
+}
+
+.h1{
+    font-family: frog;
+    font-size: x-large;
+    color: #00696E;
+}
