@@ -36,7 +36,6 @@ h2{
   position: relative;
   width: auto;
   height: 40vw;
-  background-color: #F6ECD2;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,5 +45,34 @@ h2{
 
 
 a:visited{
-    color: #F6ECD2;
+    color: #00696E;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-exp{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.display-exp div{
+    padding: 5%;
+    flex: 1;
+    height: auto;
+    overflow: hidden;
+
+}
+
+.flex-container{
+  display:flex;
+  flex-direction:column;
+  width: 100vw;
+  justify-content: center;
+  height: 50vw;
+  align-items: center;
 }
