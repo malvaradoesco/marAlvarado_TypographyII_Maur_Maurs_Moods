@@ -72,7 +72,98 @@ a:visited{
   display:flex;
   flex-direction:column;
   width: 100vw;
-  justify-content: center;
   height: 50vw;
+
+}
+
+#div1 {
+  width: 350px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #000000;
+  position: absolute;
+}
+#div2 {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #000000;
+  position: absolute;
+  overflow: visible;
   align-items: center;
+}
+
+#div3 {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #000000;
+  position: absolute;
+  overflow: visible;
+  align-items: center;
+}
+
+#div4 {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #000000;
+  position: absolute;
+  overflow: visible;
+  align-items: center;
+}
+
+#div5 {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #000000;
+  position: absolute;
+  overflow: visible;
+  align-items: center;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto ;
+}
+
+
+.row {
+  display: flex;
+}
+
+#drag1, #drag2, #drag3, #drag4{
+width: 150px;
+height: auto;
+overflow: visible;
+} 
+
+
+#div9{
+  float: left;
+  width: 150px;
+  height: auto;
+  position: absolute;
+  overflow: visible;
+  align-items: center;
+}
+
+#div10 {
+  float: left;
+  width: 150px;
+  height: 150px;
+  position:absolute;
+  overflow: visible;
+  align-items: center;
+}
+
+#div10:hover{
+    background-color: #00696E;
+}
+
+#div9:hover{
+    background-color: #00696E;
 }
